@@ -1,9 +1,8 @@
 'use client'
 
 import Dashboard from "@/components/Dashboard";
-import Public from "@/components/Public";
 import useAuth from "@/hooks/useAuth";
-import Image from "next/image";
+import './globals.css'
 
 export default function Home() {
 

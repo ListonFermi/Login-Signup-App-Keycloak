@@ -13,11 +13,11 @@ export const getKeycloakRealm = () =>
 export const getKeycloakClientId = () =>
   getEnvVariable("NEXT_PUBLIC_KEYCLOAK_CLIENT_ID"); */
 
-export const getKeycloakUrl = () => "http://localhost:8081/";
+export const getKeycloakUrl = () => "http://localhost:8081";
 export const getKeycloakRealm = () =>
-  "Login-Signup-App-Keycloak";
+  "Login-signup-app";
 export const getKeycloakClientId = () =>
-  "login_signup_app_client_id";
+  "login-signup-app-client-id";
 
 export const getBackendUrl = () => "http://localhost:5000"
 
